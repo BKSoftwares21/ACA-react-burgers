@@ -1,20 +1,12 @@
-
-import './components/BurgerStyles.css' 
-function App() {
-
-
-  return (
-    <><h1>ACA Burger</h1>
+import React from 'react'; 
+import Burger from './components/Burger';
+const App:React.FC =() => {
+return (
+    <>
+    
+      <div className= 'App'><h1>ACA Burger</h1>
         <h3>By benita Kazadi</h3>
-      <div className= 'burgerdisplay'>
-        
-        
-
-<button>Add Tomato</button>
-<button>Add Lettuce</button>
-<button>Add Meat</button>
-<button>Add Cheese</button>
-
+      <Burger/>
       </div>
       
     </>
