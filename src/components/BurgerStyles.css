@@ -1,3 +1,4 @@
+
 .burger-container {
     text-align: center;
   }
@@ -8,7 +9,7 @@
     height: 400px;
     border: 2px solid #000;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: auto;
     background-color: #f8f8f8;
   }
   
@@ -48,4 +49,14 @@ background-color: #23b4ee ;
    background-color: #2234d1;
    border: 2px solid #000000;
   }
+  .top-bread {
+    background-color: #e0a05f;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+  }
   
+  .base-bread {
+    background-color: #e0a05f;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+  }

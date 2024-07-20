@@ -43,9 +43,13 @@ const Burger: React.FC = () => {
   return (
     <div className="burger-container">
       <h1>Build Your Burger</h1>
+      
       <div className="burger">
+        <div className="ingredient top-bread">Top Bread</div>
         {renderIngredients()}
+        <div className="ingredient base-bread">Base Bread</div>
       </div>
+     
       <div className="controls">
         <button onClick={() => addIngredient('lettuce')}>Add Lettuce</button>
         <button onClick={() => addIngredient('tomato')}>Add Tomato</button>
